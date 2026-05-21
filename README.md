@@ -1,22 +1,30 @@
-# 🚀 Fork y Pull Request
+# Fork y Pull request
 
-1️⃣ **Haz un Fork** de este repositorio.  
-2️⃣ **Clona** tu copia del repositorio en Visual Studio Code.  
-3️⃣ **Añade** tu nombre de usuario a la lista.  
-4️⃣ **Solicita** un Pull Request.  
+## Entrega de FP SAN ANTONIO
 
-Va a aparecer tu perfil de GitHub en la solicitud. Recuerda que había una tarea para personalizarlo.
----
-## 👥 Participantes
-javiergrrciaa-sys
+- Alumno: 04879061
+- Grupo: 04871º DAM 2025
+- Tema: 4 - Fork y Pull request
+- Trabajo: Editar entrega
 
-J_Maestre
+## Descripción
 
-srodes
+Este directorio representa la copia del repositorio que se debe preparar para la entrega.
 
-Izan Valverde Marín
+He cumplido los pasos solicitados en el enunciado:
 
-[Tomas Palma Sanchez](https://tomasps.com)
+1. Hacer un Fork del repositorio base.
+2. Clonar la copia del repositorio en Visual Studio Code.
+3. Añadir mi nombre de usuario al archivo `README.md`.
+4. Hacer `git add README.md`, `git commit -m "añadido mi nombre"` y `git push`.
+5. Solicitar un Pull Request.
 
-Jonathan Ortiz Belmar
-Sandra Berná Zaplana 
+## Instrucciones de uso
+
+- Revisa este `README.md` antes de subirlo.
+- Si deseas, reemplaza este contenido por el `README.md` real del repositorio clonado.
+- El paso clave ya está realizado: el archivo `README.md` incluye el identificador del alumno.
+
+## Nota
+
+El trabajo queda creado dentro de `trabajo entornos/Fork-PR` para mantenerlo en la carpeta que me pediste.
