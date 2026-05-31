@@ -1,24 +1,51 @@
-# 🚀 Fork y Pull Request
+# Proyecto de Alarmas Java
 
-1️⃣ **Haz un Fork** de este repositorio.  
-2️⃣ **Clona** tu copia del repositorio en Visual Studio Code.  
-3️⃣ **Añade** tu nombre de usuario a la lista.  
-4️⃣ **Solicita** un Pull Request.  
+Este proyecto implementa un gestor de alarmas en Java con funcionalidades básicas de programación, repetición por días de la semana, perfiles de sonido y modo vacaciones.
 
-Va a aparecer tu perfil de GitHub en la solicitud. Recuerda que había una tarea para personalizarlo.
----
-## 👥 Participantes
-javiergrrciaa-sys
+## Características
 
-J_Maestre
+- Crear alarmas con hora, etiqueta, días de repetición, categoría y perfil de sonido.
+- Mostrar próximas alarmas activas ordenadas por hora.
+- Activar y desactivar el modo vacaciones, que desactiva todas las alarmas.
+- Comprobar si una alarma debe sonar en un momento dado.
+- Soporte de perfil de sonido con modo circadiano para ajuste de volumen gradual.
+- Estadísticas simples de posponer y despertar.
 
-srodes
+## Archivos del proyecto
 
-Izan Valverde Marín
+- `Main.java` - Clase principal que crea instancias y simula el comportamiento de las alarmas.
+- `Alarm.java` - Modelo de alarma con hora, estado, repetición y estadísticas.
+- `AlarmManager.java` - Gestor de alarmas, creación, eliminación, comprobación y modo vacaciones.
+- `AlarmCategory.java` - Enumeración de categorías de alarma.
+- `SoundProfile.java` - Perfil de sonido con tipo de tono y volumen base.
+- `CircadianMode.java` - Ajusta el volumen en función del tiempo para un efecto circadiano.
+- `SleepStatistics.java` - Registra posponer y despertares.
+- `UserPreferences.java` - Preferencias de usuario, incluyendo el modo vacaciones.
 
-[Tomas Palma Sanchez](https://tomasps.com)
+## Requisitos
 
-Jonathan Ortiz Belmar
-Sandra Berná Zaplana 
+- Java 17 o superior.
 
-Ismael Liza
+## Uso
+
+1. Abrir la carpeta del proyecto en tu IDE o terminal.
+2. Compilar las clases:
+   ```bash
+   javac *.java
+   ```
+3. Ejecutar la aplicación:
+   ```bash
+   java Main
+   ```
+
+## Ejemplo de comportamiento
+
+- `Main` crea una alarma de ejemplo para los lunes, martes y miércoles a las 07:00.
+- Muestra las próximas alarmas activas.
+- Simula la comprobación de alarma en una fecha y hora específicas.
+
+## Notas
+
+- El proyecto está montado como una aplicación de consola sencilla.
+- No incluye persistencia; las alarmas solo existen durante la ejecución.
+- Se puede ampliar con interfaz gráfica, almacenamiento en archivos/BD y más tipos de notificaciones.
